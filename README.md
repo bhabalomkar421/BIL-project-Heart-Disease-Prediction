@@ -1,0 +1,5 @@
+# Predicting-Heart-Disease
+
+Heart disease cases nearly doubled over the period — from 271 million in 1990 to 523 million in 2019, and the number of heart disease deaths rose from 12.1 million to 18.6 million. In 2019, the majority of heart disease deaths were attributed to ischemic heart disease and stroke, with a steady increase from 1990. Heart disease is one of the biggest causes of morbidity and mortality among the population of the world. Prediction of cardiovascular disease is regarded as one of the most important subjects in the section of clinical data analysis. The amount of data in the healthcare industry is huge.
+
+Hence, Machine Learning can play an essential role in predicting presence/absence of Locomotor disorders, Heart diseases and more. Such information, if predicted well in advance, can provide important insights to doctors who can then adapt their diagnosis and treatment per patient basis.
