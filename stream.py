@@ -5,38 +5,25 @@ import pickle
 filename = 'finalized_model1.sav'
 
 def predict():
-    return 'add function'
+    return 'run function'
 
 def load_UI():
     """ loads the GUI """
     st.title('Heart Disease Prediction')
-
     age = st.text_input('Enter Age')
-
     sex = st.text_input('Enter Sex')
-
+    st.text('1 for male and 0 for female')
     cp = st.text_input('Enter CP')
-
     trestbps = st.text_input('Enter trestbps')
-
     chol = st.text_input('Enter chol')
-
     fbs = st.text_input('Enter fbs')
-
     restecg = st.text_input('Enter restecg')
-
     thalach = st.text_input('Enter thalach')
-
     exang = st.text_input('Enter exang')
-
     oldpeak = st.text_input('Enter oldpeak')
-
     slope = st.text_input('Enter slope')
-
     ca = st.text_input('Enter ca')
-
     thal = st.text_input('Enter thal')
-
     x = st.button('predict')
     if(x):
         if(age and sex and cp and trestbps and chol and fbs and restecg and thalach and exang and oldpeak and slope and ca and thal):
@@ -44,7 +31,7 @@ def load_UI():
             if(pred(input)[0] == 0):
                 st.text('Your are Safe, You don\'t have any Heart Disease !!! Stay Safe Track your health Daily')
             else:  
-                st.text('Your report says that you haveHeart Disease')
+                st.text('You have Heart Disease')
         else:
             st.text('Please fill all the fields!!!') 
 
